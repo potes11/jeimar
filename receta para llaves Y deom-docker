@@ -1,0 +1,11 @@
+//LLAVES DE ACCESO MAGENTO2
+
+crear o agregar las llaves de acceso de MAGENTO2 vaya la pagina
+
+# https://commercemarketplace.adobe.com/ 
+
+inicie seccion o crea una cuenta en la parte superior derecha (iniciar sesion) despues de iniciar sesion en (Mis productos) vaya ala opsion (claces de acceso)
+
+hay podra crear o copiar y pegar sus llaves de acceso en el proyecto que este instalando recuerde que en username: debe pegar la llave publica y en password (contraseña) su llave privada 
+
+nota: en caso tal de que haya pegado mal las contraseñas vaya a su directorio entre a su carpeta personal en el menu pulse la opcion (mostrar archivos ocultos) entre a ala carpeta (.composer ) y borre el archivo (auth.json) he intente de nuevo agregar sus llaves en el proyecto que este instalando

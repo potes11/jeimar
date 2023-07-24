@@ -1,0 +1,23 @@
+ servicos de apache en xampp 
+
+1. vaya ala siguiente ruta 
+# cd /opt/lampp 
+
+2. con el comando (ls) liste el contenido del directorio hay encontratra la carpeta (htdocs) a la cual 
+devemos darle permisos. hay es donde iran nuestros (archivos php o directorios) que seran visualizados
+por el servidor de apache 
+
+le damos permisos a la carpeta htdocs
+# sudo chmod 777 htdocs/
+
+# opcional 
+crear acceso directo ala carpeta htdocs
+# sudo ln -s /opt/lampp/htdocs/ /home/jeimar/Documentos
+
+/home/jeimar/Documentos esto puede variar de acuerdo a donde quiera crear su acceso
+
+
+3. luego en tu navegador escribe https://localhost/ y el nombre de tu archivo o directorio que hayas creado en la carpeta htdocs 
+
+ejmplo:  https://localhost/index.php 
+         https://localhost/proyecto/index.php
