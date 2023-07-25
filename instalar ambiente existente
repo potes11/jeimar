@@ -1,0 +1,21 @@
+para instalar un ambiente existente
+
+instalamos un ambiente (limpio y borramos la src luego pegamos la src del proyecto que deseemos instalar)
+
+luego ejecutamos los siguinetes comandos 
+
+1. con el comando curl descargamos el codigo fuente (archivos directorios) de magento desde un servidor con la url 
+utilizando cualquiera de los protocolos soportados 
+# curl -s https://raw.githubusercontent.com/markshust/docker-magento/master/lib/template | bash
+
+2.copie carpetas o archivos del host al contenedor.
+#bin/copytocontainer --all 
+
+3. inicie algunos contenedores 
+#bin/start --no-dev
+
+4.completar directorio de proveedores vacios 
+#bin/composer install
+
+# Importamos la base de datos existente:
+bin/mysql < ../existing/magento.sql
